@@ -50,13 +50,18 @@ header a {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;;
+}
+
+header nav ul li {
+    margin: 29px 0px;
 }
 
 header nav ul li a {
     padding: 10px 15px;
+    margin: 0px 0px;
 }
 
 header nav ul li a:hover {
