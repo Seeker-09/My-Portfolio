@@ -1,0 +1,65 @@
+/* START GENERAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: blue;
+    --tertiary-color: lightgrey;
+}
+/* END GENERAL STYLES */
+
+/* HEADER STYLES BEGIN */
+header {
+    padding: 20px 35px;
+    color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../images/headerBackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav {
+    margin: 10px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    color: var(--secondary-color);
+}
+/* HEADER STYLES END */
