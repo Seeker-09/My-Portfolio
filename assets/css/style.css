@@ -10,6 +10,15 @@
     --secondary-color: blue;
     --tertiary-color: lightgrey;
 }
+
+body {
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+    color: var(--secondary-color);
+}
 /* END GENERAL STYLES */
 
 /* HEADER STYLES BEGIN */
@@ -68,3 +77,28 @@ header nav ul li a:hover {
     color: var(--secondary-color);
 }
 /* HEADER STYLES END */
+
+/* SECTION STYLES START */
+section h2 {
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    border-color: var(--primary-color);
+}
+
+/* ABOUT ME STYLES START */
+.aboutMe {
+    background-color: skyblue;
+}
+
+.aboutMe p {
+    line-height: 1.7;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+/* ABOUT ME STYLES END */
+/* SECTION STYLES END */
