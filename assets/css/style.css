@@ -53,15 +53,13 @@ header nav {
 
 header a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--black);
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-end;
-    list-style: none;;
+    list-style: none;
 }
 
 header nav ul li {
@@ -91,6 +89,7 @@ section h2 {
     width: 50%;
     border-color: var(--black);
 }
+/* SECTION STYLES END */
 
 /* ABOUT ME STYLES START */
 .aboutMe p {
@@ -152,4 +151,16 @@ section h2 {
     font-weight: lighter;
 }
 /* PROJECTS STYLES END */
-/* SECTION STYLES END */
+
+/* CONTACT STYLES START */
+    .contactSection address {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .contactSection a {
+        text-decoration: none;
+    }
+/* CONTACT STYLES END */
