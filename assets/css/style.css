@@ -121,8 +121,8 @@ section h2 {
 
 .projectImg {
     height: 150px;
-    margin-bottom: 15px;
     background-size: cover;
+    background-position: center center;
 }
 
 .projectImg:hover {
