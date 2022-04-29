@@ -29,18 +29,22 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-color: var(--sky-blue);
 }
 
 header div {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
-header img {
-    max-width: 250px;
-    max-height: 250px;
+header div .myPhoto {
+    background-image: url("../images/headShot.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
 }
 
 header h1 {
