@@ -126,7 +126,7 @@ section h2 {
 .projectImg {
     height: 150px;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
 }
 
 .projectImg:hover {
@@ -138,7 +138,7 @@ section h2 {
 }
 
 .projectImg2 {
-    background-image: url("../images/runbuddy.jpg");
+    background-image: url("../images/SpaceAppScreenshot.png");
 }
 
 .projectImg3 {
