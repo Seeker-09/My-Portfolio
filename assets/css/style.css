@@ -124,9 +124,9 @@ section h2 {
 }
 
 .projectImg {
-    height: 150px;
+    height: 200px;
     background-size: cover;
-    background-position: top center;
+    background-position: center top;
 }
 
 .projectImg:hover {
